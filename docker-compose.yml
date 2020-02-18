@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+ eywebappashu:
+  image: ashueyfebwebapp:v10
+  build:
+   context: .
+   dockerfile: ashu.dockerfile
+  container_name: ashueyc11
+  ports:
+   - "8787:80"
